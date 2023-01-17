@@ -3,6 +3,11 @@ require 'pry'
 class String
 
   def sentence?
+    if `#{sentence}.`
+      true
+    else 
+      false
+    end
     
   end
 
